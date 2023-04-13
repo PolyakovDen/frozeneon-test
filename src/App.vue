@@ -19,7 +19,7 @@ import meAvatar from '@/assets/images/me.png'
           variant="text" 
           size="small"
           color="blue-accent-2"
-          href="https://github.com/PolyakovDen"
+          href="https://github.com/PolyakovDen/frozeneon-test"
           target="_blank"
         >
           GitHub Repo
