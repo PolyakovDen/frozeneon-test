@@ -29,7 +29,7 @@ const getSearchingPackages = async (packageName, page = 1) => {
 }
 
 const searchPackages = () => {
-  getSearchingPackages(search.value)
+  getSearchingPackages(search.value, (page.value - 1) * 10)
 }
 
 const changePage = () => {
@@ -39,7 +39,7 @@ const changePage = () => {
       behavior: 'smooth'
     })
   })
-  getSearchingPackages(search.value, page.value)
+  getSearchingPackages(search.value, (page.value - 1) * 10)
 }
 
 const isModalOpen = ref(false)
